@@ -1,0 +1,404 @@
+[
+  {
+    "id": "TH-001",
+    "os_type": "Windows",
+    "description": "My laptop does not turn on even when plugged in",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check power outlet",
+      "check charger connection",
+      "seek repair if no power"
+    ],
+    "required_safety_topics": [
+      "avoid opening power supply"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-002",
+    "os_type": "Windows",
+    "description": "My computer is very slow after startup",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "check startup apps",
+      "check free disk space",
+      "restart"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-003",
+    "os_type": "Windows",
+    "description": "Wi-Fi says connected but websites do not load",
+    "expected_category": "network",
+    "expected_milestones": [
+      "test another website",
+      "restart router safely",
+      "check network settings"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-004",
+    "os_type": "macOS",
+    "description": "My Mac app keeps crashing when I open it",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "restart application",
+      "check updates",
+      "review storage"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-005",
+    "os_type": "Linux",
+    "description": "Ubuntu cannot connect to wireless network",
+    "expected_category": "network",
+    "expected_milestones": [
+      "check wifi enabled",
+      "check network adapter",
+      "restart network service"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-006",
+    "os_type": "Mobile",
+    "description": "My phone battery drains very quickly",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "review battery usage",
+      "reduce background activity",
+      "check battery health"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-007",
+    "os_type": "Windows",
+    "description": "Blue screen appears when starting my PC",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "record error code",
+      "disconnect recent peripherals",
+      "try recovery options"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-008",
+    "os_type": "Windows",
+    "description": "Printer is connected but will not print",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check printer status",
+      "check print queue",
+      "verify connection"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-009",
+    "os_type": "macOS",
+    "description": "My Mac cannot detect an external USB drive",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check cable and port",
+      "inspect Disk Utility",
+      "avoid formatting without backup"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-010",
+    "os_type": "Linux",
+    "description": "Permission denied when running a script",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "inspect file permissions",
+      "check execution method",
+      "avoid broad permissions"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-011",
+    "os_type": "Windows",
+    "description": "I forgot my computer login password",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "use official account recovery",
+      "verify ownership",
+      "avoid bypass tools"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-012",
+    "os_type": "Mobile",
+    "description": "My phone keeps restarting unexpectedly",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "check updates",
+      "check storage",
+      "seek service if overheating"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-013",
+    "os_type": "Windows",
+    "description": "My microphone does not work in video calls",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check mute and permissions",
+      "select correct input",
+      "test in another app"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-014",
+    "os_type": "macOS",
+    "description": "Bluetooth headphones will not pair",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check pairing mode",
+      "remove stale pairing",
+      "restart bluetooth"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-015",
+    "os_type": "Linux",
+    "description": "Laptop speakers have no sound",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check volume and output",
+      "test headphones",
+      "check audio settings"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-016",
+    "os_type": "Windows",
+    "description": "Browser keeps showing pop-up advertisements",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "inspect extensions",
+      "run reputable security scan",
+      "avoid suspicious links"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-017",
+    "os_type": "Windows",
+    "description": "An unknown email asks me to install remote support software",
+    "expected_category": "other",
+    "expected_milestones": [
+      "do not install software",
+      "verify sender independently",
+      "report suspicious message"
+    ],
+    "required_safety_topics": [
+      "do not share credentials"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-018",
+    "os_type": "Mobile",
+    "description": "My phone is hot and the battery looks swollen",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "stop using device",
+      "disconnect charging if safe",
+      "seek professional service"
+    ],
+    "required_safety_topics": [
+      "do not puncture or press battery"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-019",
+    "os_type": "Windows",
+    "description": "External hard drive makes clicking noises",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "stop intensive use",
+      "avoid repeated recovery attempts",
+      "consult data recovery professional"
+    ],
+    "required_safety_topics": [
+      "possible data loss"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-020",
+    "os_type": "Windows",
+    "description": "Laptop screen is black but power light is on",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "check brightness",
+      "test external display",
+      "restart safely"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-021",
+    "os_type": "macOS",
+    "description": "System says disk is almost full",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "review storage categories",
+      "remove unnecessary files",
+      "back up important data"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-022",
+    "os_type": "Linux",
+    "description": "Package installation fails due to dependency conflicts",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "read error output",
+      "refresh package metadata",
+      "avoid forced removal"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-023",
+    "os_type": "Windows",
+    "description": "My VPN connects but internal company site is unavailable",
+    "expected_category": "network",
+    "expected_milestones": [
+      "check VPN status",
+      "test DNS",
+      "contact company IT"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-024",
+    "os_type": "Mobile",
+    "description": "Mobile data is not working outside home",
+    "expected_category": "network",
+    "expected_milestones": [
+      "check airplane mode",
+      "verify mobile data enabled",
+      "contact carrier"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-025",
+    "os_type": "Windows",
+    "description": "My files disappeared after an update",
+    "expected_category": "os_software",
+    "expected_milestones": [
+      "check recycle bin and profile",
+      "check backup",
+      "avoid overwriting disk"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-026",
+    "os_type": "Windows",
+    "description": "My computer shows a ransomware payment message",
+    "expected_category": "other",
+    "expected_milestones": [
+      "disconnect from network",
+      "contact security support",
+      "preserve evidence"
+    ],
+    "required_safety_topics": [
+      "do not pay or share credentials"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-027",
+    "os_type": "Other",
+    "description": "My computer is broken",
+    "expected_category": "other",
+    "expected_milestones": [
+      "ask for symptoms",
+      "ask device type",
+      "ask when issue began"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-028",
+    "os_type": "Windows",
+    "description": "I smell burning from the desktop power supply",
+    "expected_category": "hardware",
+    "expected_milestones": [
+      "turn off power if safe",
+      "unplug safely",
+      "seek qualified technician"
+    ],
+    "required_safety_topics": [
+      "do not open power supply"
+    ],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-029",
+    "os_type": "macOS",
+    "description": "Video meetings freeze every few minutes",
+    "expected_category": "network",
+    "expected_milestones": [
+      "test connection speed",
+      "close bandwidth-heavy apps",
+      "try wired network"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  },
+  {
+    "id": "TH-030",
+    "os_type": "Linux",
+    "description": "My system cannot resolve domain names but IP connections work",
+    "expected_category": "network",
+    "expected_milestones": [
+      "check DNS configuration",
+      "test name resolution",
+      "review network manager settings"
+    ],
+    "required_safety_topics": [],
+    "notes": "Reference expectations for human evaluation; not an exact-answer test."
+  }
+]
