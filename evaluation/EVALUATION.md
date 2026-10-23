@@ -22,3 +22,48 @@ TH-027 is intentionally vague: good behavior includes asking clarifying question
 
 ## Limitations
 Reference milestones are illustrative, not guaranteed repairs. Evaluation is subjective and must be reviewed by the group. Do not claim model accuracy or success without executed runs.
+## Evaluation Results
+
+### Test Execution
+
+The Tech Helper application was evaluated using 30 text-based troubleshooting cases covering Windows, macOS, Linux, Mobile, and Other operating systems.
+
+- **Model:** qwen3:4b (Ollama)
+- **Total test cases:** 30
+- **Executed test cases:** 30
+- **JSON parsing success:** 30/30 (100%)
+- **Evaluation method:** Automated response collection followed by a preliminary review of relevance, actionability, clarity, safety, and expected milestones.
+
+### Evaluation Findings
+
+The model generated parseable JSON responses for all 30 test cases in the recorded evaluation run.
+
+However, JSON parsing success does not guarantee that every response satisfies the complete schema or provides technically correct and safe troubleshooting advice.
+
+The preliminary review identified several limitations:
+
+- Some responses contained repeated step numbers.
+- Some troubleshooting instructions were unnecessarily complex.
+- Some expected diagnostic milestones were missing.
+- Certain responses included potentially disruptive instructions without sufficient precautions.
+- Some operating-system-specific instructions require further verification.
+
+### Evaluation Files
+
+- `test_cases.json` — Reference troubleshooting test cases.
+- `results_template.csv` — Original evaluation template.
+- `results.csv` — Automatically recorded execution results.
+- `responses.json` — Saved model responses.
+- `tech_helper_evaluation_review.csv` — Preliminary evaluation review.
+
+### Limitations and Future Improvements
+
+The evaluation results represent one recorded run of the qwen3:4b model.
+
+The evaluation does not prove that the suggested solutions successfully repair real devices.
+
+Rubric scores and milestone coverage require group review before being treated as final results.
+
+Runtime-unavailable, empty-input, and invalid-JSON handling should be verified separately during application integration.
+
+The model should be improved to provide clearer instructions, prioritize safer troubleshooting actions, and avoid unnecessary or destructive system changes.
