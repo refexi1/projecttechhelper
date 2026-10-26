@@ -1,8 +1,0 @@
-# Python / Environments
-venv/
-__pycache__/
-.env
-*.pyc
-
-# VS Code
-.vscode/
