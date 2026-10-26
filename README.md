@@ -113,4 +113,7 @@ The goal of Project TechHelper is to develop an accessible AI-powered technical 
 
 The project also demonstrates how a locally running language model can be integrated into a Python application with structured responses, data validation, error handling, and automated tests.
 
+## Link to our group presentation
+https://kaltura.hamk.fi/media/Final+Project+recording%2C+Tech+Helper/0_e318lptg
+
 
